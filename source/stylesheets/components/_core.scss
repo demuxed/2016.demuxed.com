@@ -220,6 +220,11 @@ h1, h2, h3, h4, h5 {
     }
   }
 
+  .home-hero__additional-text {
+    position: relative;
+    z-index: 5;
+  }
+
   .hero-illustration-mobile {
     display: block;
     @include mq($medium) {
